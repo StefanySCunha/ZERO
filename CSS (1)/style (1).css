@@ -1,0 +1,123 @@
+/* resetar os elementos */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* global */
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,p{
+    color: aliceblue;
+}
+
+h1{
+    font-size: 52px ;
+    font-weight: 200;
+}
+ul{
+    list-style: none;
+}
+
+/*classes*/
+.container{
+    background-color: #707070;
+    text-align: center;
+}
+
+.topo-container{
+    background-image: url('../IMG/bgBanner.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 10px 25px;
+    text-align: center;
+}
+.topo-container input{
+    padding: 10px 25px;
+    background-color: #333;
+    color: aliceblue;
+    margin-top: 20px;
+    cursor: pointer;
+}
+/* conteudo1 */
+.conteudo1-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5em 10em;
+    /* background-color: #707070; */
+    text-align: center;
+}
+.paragrafo1{
+    width: 40%;
+}
+/* conteudo2 */
+.conteudo2-container{
+    background-color: #333;   
+    width: 100%;
+    padding: 2em 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.conteudo2-itens h2{
+    font-weight: 200;
+}
+.conteudo2-itens img {
+    width: 100%;
+    height: 200px;
+}
+.conteudo2-itens img:hover {
+    filter: saturate(0%);
+    border: 1px solid white;
+    transition: .5s;
+}
+.conteudo2-itens p{
+    padding: 20px 30px;
+    color: #333;
+    
+}
+.conteudo2-itens{
+    width: 20%;
+    height: auto;
+    /* padding: 20px 10px; */
+    background-color: rgb(240, 240, 240);
+}
+/* conteudo3 */
+.conteudo3-container{
+    padding: 5em 10em;  
+}
+.conteudo3-container p{
+    padding-top: 25px;
+}
+/* conteudo4 */
+.conteudo4-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.conteudo4-itensE{
+    background-color: rgb(96, 90, 180);
+    padding: 3em 5em;
+    width: 50%;
+}
+.conteudo4-itensD{
+    background-color: rgb(144, 90, 180);
+    padding: 3em 5em;
+    width: 50%;
+}
+.conteudo4-itensE h2, .conteudo4-itensD h2, {
+    color: aliceblue;
+}
+/* conteudo5 */
+.conteudo5-container{
+    background-color: #333;
+    width: 100% ;
+    height: 70px;
+}
+.conteudo5-container p{
+    line-height: 70px;
+    font-size: 16px;
+}
