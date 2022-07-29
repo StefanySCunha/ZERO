@@ -108,7 +108,7 @@ ul{
     padding: 3em 5em;
     width: 50%;
 }
-.conteudo4-itensE h2, .conteudo4-itensD h2, {
+.conteudo4-itensE h2, .conteudo4-itensD h2 {
     color: aliceblue;
 }
 /* conteudo5 */
